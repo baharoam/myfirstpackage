@@ -3,7 +3,7 @@ package mypackage
 import "log"
 
 func LogInfo(message string) {
-	log.Prinln("Info", message)
+	log.Println("Info", message)
 }
 
 func LofWarning (message string){
